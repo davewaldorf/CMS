@@ -72,18 +72,21 @@ Please note that Next.js applications require a .env.local file for configuring 
 
 The CMS application provides an API for interacting with its data. The API is RESTful and follows standard HTTP methods for CRUD operations. Here are the available endpoints:
 
+### Categories
 - `GET /api/categories`: Retrieves a list of all categories.
 - `GET /api/categories/:id`: Retrieves a specific category by ID.
 - `POST /api/categories`: Creates a new category.
 - `PUT /api/categories/:id`: Updates a category by ID.
 - `DELETE /api/categories/:id`: Deletes a category by ID.
 
+### Products
 - `GET /api/products`: Retrieves a list of all products.
 - `GET /api/products/:id`: Retrieves a specific product by ID.
 - `POST /api/products`: Creates a new product.
 - `PUT /api/products/:id`: Updates a product by ID.
 - `DELETE /api/products/:id`: Deletes a product by ID.
 
+### Orders
 - `GET /api/orders`: Retrieves a list of all orders.
 - `GET /api/orders/:id`: Retrieves a specific order by ID.
 - `POST /api/orders`: Creates a new order.
