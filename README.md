@@ -37,7 +37,15 @@ GOOGLE_CLIENT_SECRET=<your-google-client-secret>
 Other
 API_SECRET=<your-api-secret>
 
-4. npm run dev
+4. Replace `<your-database-host>`, `<your-database-port>`, `<your-database-name>`, `<your-google-client-id>`, `<your-google-client-secret>`, and `<your-api-secret>` with the appropriate values.
+
+5. Start the application: `npm run dev`
+
+## Running the Application
+
+To run the CMS application locally, use the following command:
+  
+npm run dev
 
 This command starts the development server and the application will be accessible at `http://localhost:3000`.
 
